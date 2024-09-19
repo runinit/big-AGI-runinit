@@ -1,5 +1,9 @@
 import * as React from 'react';
 
+import type { SystemPurposeId as CustomSystemPurposeId } from './data-custom';
+import { promptTemplatesAll } from './data-custom';
+import { SystemPurposes as CustomSystemPurposes } from './data-custom';
+
 export type SystemPurposeId = 'Catalyst' | 'Custom' | 'Designer' | 'Developer' | 'DeveloperPreview' | 'Executive' | 'Generic' | 'Scientist' | 'YouTubeTranscriber';
 
 export const defaultSystemPurposeId: SystemPurposeId = 'Generic';
